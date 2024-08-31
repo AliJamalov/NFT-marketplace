@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Work Sans", serif;
+    background-color: #2B2B2B;
+}
+
+header {
+    padding: 34px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-card {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav {
+   display: flex;
+   align-items: center;
+}
+
+.nav ul {
+   display: flex;
+   gap: 30px;
+   color: white;
+}
+
+.nav a {
+    color: white;
+ }
+
+.sign-btn {
+    background-color: #A259FF;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-left: 30px;
+    padding: 19px 30px;
+    cursor: pointer;
+ }
+
+ main {
+    padding: 80px 115px;
+    display: flex;
+    gap: 30px;
+    color: white;
+    justify-content: space-between;
+ }
+
+ main p {
+   margin-top: 20px;
+ }
+
+ main h1 {
+    font-weight: 600;
+    font-size: 67px;
+  }
+
+ .start {
+    background-color: #A259FF;
+    color: white;
+    border-radius: 20px;
+    padding: 19px 50px;
+    border: none;
+    margin-top: 30px;
+ }
+
+.result {
+    display: flex;
+    gap: 30px;
+ }
+
+ .result p {
+   font-weight: 700;
+   font-size: 28px;
+   margin-bottom: 5px;
+ }
+
+.main-img {
+    width: 100%;
+    border-radius: 23px;
+    width: 510px;
+    height: 401px;
+}
+
+.bottom-card {
+    background-color: #3B3B3B;
+    padding: 17px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logo-card {
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 12px;
+}
+
+.bottom-card p {
+    margin-bottom: 10px;
+}
+
+.Animakid {
+    margin-top: -10px;
+}
